@@ -1,8 +1,15 @@
 body {
-  padding: 40px 50px;
-  margin: 40px 50px;
+  width: 1350px;
+  margin: 10px 300px;
 }
 .main {
   width: 100%;
   height: auto;
+}
+.top {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  margin-top: -670px;
+  margin-left: 200px;
 }
