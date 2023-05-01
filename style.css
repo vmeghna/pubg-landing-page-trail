@@ -3,13 +3,21 @@ body {
   margin: 10px 300px;
 }
 .main {
-  width: 100%;
+  width: 150%;
   height: auto;
 }
-.top {
-  width: 50%;
+.box {
+  width: 55%;
   height: auto;
   position: absolute;
-  margin-top: -670px;
-  margin-left: 200px;
+  margin-top: -980px;
+  margin-left: 280px;
+}
+.text {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: -650px;
+  color: antiquewhite;
+  margin-left: 1250px;
+  position: absolute;
 }
