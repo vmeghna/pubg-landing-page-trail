@@ -14,10 +14,14 @@ body {
   margin-left: 280px;
 }
 .text {
-  font-size: larger;
+  font-size: x-large;
   font-weight: bold;
   margin-top: -650px;
   color: antiquewhite;
-  margin-left: 1250px;
+  margin-left: 1170px;
   position: absolute;
+  width: 650px;
+}
+.text span {
+  color: yellow;
 }
