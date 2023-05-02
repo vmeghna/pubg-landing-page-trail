@@ -5,7 +5,58 @@ body {
 .main {
   width: 150%;
   height: auto;
+  position: relative;
 }
+.header {
+  width: 73%;
+  height: 8%;
+  position: absolute;
+  margin-top: -1120px;
+  display: inline-flex;
+}
+.small {
+  width: 5%;
+  position: absolute;
+  display: inline;
+}
+
+.header_nav {
+  width: 110%;
+}
+
+.header_nav a {
+  color: antiquewhite;
+  margin-left: 180px;
+  font-size: 150%;
+  text-decoration: none;
+}
+.header_button {
+  margin-left: 60%;
+  display: inline;
+}
+
+.header_button_one {
+  color: white;
+  background-color: gray;
+  border-radius: 10%;
+  padding: 20px 40px;
+}
+.header_button_one:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.header_button_two {
+  color: white;
+  background-color: gray;
+  border-radius: 10%;
+  padding: 20px 40px;
+}
+.header_button_two:hover {
+  background-color: yellow;
+  color: black;
+}
+
 .box {
   width: 55%;
   height: auto;
@@ -18,10 +69,36 @@ body {
   font-weight: bold;
   margin-top: -650px;
   color: antiquewhite;
-  margin-left: 1170px;
+  margin-left: 1160px;
   position: absolute;
   width: 650px;
 }
 .text span {
   color: yellow;
+}
+.last button {
+  padding: 10px 50px;
+  color: yellow;
+  background: rgb(179, 164, 164);
+  font-size: xx-large;
+  border-radius: 5px;
+}
+.footer {
+  width: 74%;
+  height: 50px;
+  margin-top: -100px;
+  position: absolute;
+  margin-left: 50px;
+}
+.foot {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+}
+.one {
+  width: 50%;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 300px;
+  height: 150%;
 }
